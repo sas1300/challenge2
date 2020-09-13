@@ -7,23 +7,31 @@
 body {
     color: black;
     font-family: helvetica, arial sans-serif;
+    background-color: grey;
 }
 
 /* Header Styles */
 
 header {
-    padding: 20px 35px;
+    padding: 30px 45px;
     background-color:tan;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
 }
 
     header h1 {
         font-weight: bold;
         margin: 0;
-        font-size: 36px;
+        font-size: 3.0vw;
         color: black;
+        text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     }
 
     header a {
@@ -46,7 +54,13 @@ header {
     header nav ul li a {
         padding: 10px 15px;
         font-weight: lighter;
-        font-size: 1.55vw;
+        font-size: 2.5vw;
+    }
+
+    header nav ul li a:hover {
+        color: #024e76;
+        border-radius: 15px;
+        text-shadow: none;
     }
 
 /* Header Styles End */
@@ -65,7 +79,7 @@ header {
    
 
     .hero-img {
-        width: 10%;
+        width: 100%;
     }
 
 
