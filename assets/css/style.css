@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: black;
+    font-family: helvetica, arial sans-serif;
+}
+
+/* Header Styles */
+
+header {
+    padding: 20px 35px;
+    background-color:tan;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+    header h1 {
+        font-weight: bold;
+        margin: 0;
+        font-size: 36px;
+        color: black;
+    }
+
+    header a {
+        text-decoration: none;
+        color: black;
+    }
+
+    header nav {
+        margin: 7px 0;
+    }
+
+    header nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+    }
+
+    header nav ul li a {
+        padding: 10px 15px;
+        font-weight: lighter;
+        font-size: 1.55vw;
+    }
+
+/* Header Styles End */
+
+/* Hero Styles Start */
+
+    .hero {
+        background-image: url("../images/fractals-070414-2yh.jpg");
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+   
+
+    .hero-img {
+        width: 10%;
+    }
+
+
+/* Heror Styles End */
+
+/* About Me Styles Start */
+
+    
+
+
+/* About Me Styles End */
