@@ -68,26 +68,73 @@ header {
 /* Hero Styles Start */
 
     .hero {
+        display: flex;
         background-image: url("../images/fractals-070414-2yh.jpg");
         background-size: cover;
         background-position: center;
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        align-items: flex-start;
+        }
+
+    .hero-content {
+        color: white;
+
+    }
+
+    .hero-title {
+
     }
    
 
     .hero-img {
+        border: 5px solid black;
         width: 100%;
+        height: 200px;
     }
 
 
-/* Heror Styles End */
+/* Hero Styles End */
 
 /* About Me Styles Start */
 
+#about-me {
+    width: 100%;
+    margin-bottom: 5px;
+    border: 2px solid black;
+}
+
+    .about-me-text {
+
+    }
+
+    .about-me-img {
+       margin-right: auto;
+      }
     
-
-
 /* About Me Styles End */
+
+/* Work Styles Start */
+
+#work {
+    width: 100%;
+    margin-bottom: 5px;
+    border: 2px solid black;
+}
+
+/* Work Styles End */
+
+/* Contact Me Styles Start */
+
+#contact-me {
+    width: 100%;
+    margin-bottom: 5px;
+    border: 2px, solid black;
+}
+    .contact-me nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+    }
+
+
+/*Contact Me Styles End */
